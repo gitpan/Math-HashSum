@@ -1,5 +1,6 @@
 MANIFEST
 Makefile.PL
+CHANGES
 README
 lib/Math/HashSum.pm
 t/lib/Test/Builder.pm

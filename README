@@ -1,4 +1,4 @@
-Math::HashSum version 0.03
+Math::HashSum version 0.02
 =============================
 
 INSTALLATION
@@ -29,10 +29,7 @@ USAGE
   
   print "$sum{a}\n"; # Prints .3
   print "$sum{b}\n"; # Prints .9
-  
-VERSIONS
-  0.01 -- Initial Release
-  
+    
 AUTHOR
   David James <david@jamesgang.com>
 

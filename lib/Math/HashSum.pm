@@ -1,14 +1,13 @@
 package Math::HashSum;
 
 @EXPORT_OK = qw(hashsum);
-$VERSION = 0.01;
+$VERSION = 0.02;
 use base 'Exporter';
 use strict;
 
 # hashsum: Sum a list of key-value pairs on a per-key basis
 sub hashsum {
     my %sum;
-    my @input = @_;
     while (@_) {
         my $key = shift;
         $sum{$key} += shift;
